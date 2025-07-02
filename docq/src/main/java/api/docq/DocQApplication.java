@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DocqApplication {
+public class DocQApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DocqApplication.class, args);
+        SpringApplication.run(DocQApplication.class, args);
     }
 
 }
