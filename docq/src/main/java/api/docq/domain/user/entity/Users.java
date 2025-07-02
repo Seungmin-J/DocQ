@@ -14,7 +14,6 @@ public class Users extends TimeStamped {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = true)
     private Long clinicId;
 
     @Column(nullable = false, unique = true)
